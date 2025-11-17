@@ -7,7 +7,7 @@ let accountState;
 // accountId = 2  // not allowed
 
 
-
+// let,var,const are used to declare variables in js 
 
 accountEmail = "hc@hc.com"
 accountPassword = "25252"
