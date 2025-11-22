@@ -17,7 +17,7 @@ let myYoutubename = "RajPrajapati";
 
 let  anothername = myYoutubename; // anothername gets a copy of the value of myYoutubename
 anothername = "CodewithRaj";
-console.log(anothername);
+console.log(anothername); // CodewithRaj
 console.log(myYoutubename); // RajPrajapati
 
 

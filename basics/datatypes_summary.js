@@ -27,7 +27,14 @@ const id = Symbol('123'); // id is of type Symbol
 const anotherId = Symbol('123'); // anotherId is also of type Symbol
 
 
-console.log(id === anotherId); // false
+console.log(id === anotherId); // false 
+// why id and anotherId are not equal?
+// because each symbol is unique even if they have the same description
+// Symbols are mainly used to create unique object keys
+// they help to avoid name collisions in objects
+
+
+
 
 
 // Reference(Non-primitive) data types
@@ -46,7 +53,7 @@ let myObj = {               // Object
 }
 
 
-const myFunction = function() {
+const myFunction = function() {  // Function
     console.log("Hello World");
 }
 

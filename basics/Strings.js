@@ -14,11 +14,11 @@ console.log(gameName.__proto__); // prototype of string object
 // Methods of String Object
 
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
 
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('t'));
+// console.log(gameName.charAt(2));
+// console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
 console.log(newString); // substring method does not accept negative index
